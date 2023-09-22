@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/js/login.js"></script>
+    <script>
+        window.history.forward();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>TRAVEL REQUESTOR</h1>
+    <div class="main">
+        <form id="frm">
+            <div class="nav">
+            <label>User name</label>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" id="username" placeholder="Username" name="usrnm">
+                
+              </div>
+              <span id="FullNameError" class="error" ></span><br><br>
+            </div>
+            
+                <div class="nav"></div>
+            <label>Password</label>
+            <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input type="password"  class="input-field" id="password" placeholder="Password"></input>
+            </div>
+            <span id="passwordError"  class="error" ></span><br><br>
+        </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

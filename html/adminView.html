@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.history.forward();
+    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/adminView.css">
+</head>
+<body>
+    <div class="top-container">
+        <h1>TRAVEL REQUESTOR</h1>
+        <button onclick="location.href = '/html/login.html'" >Logout</button>
+        <i class="fa fa-user icon"></i>
+    <div>
+
+        <!--Navigation bar-->
+    <div class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#">Pending</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#">All</a>
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#">Approved</a>
+                
+            </li>
+            <li class="nav-item">
+                <a href="#">Rejected</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#">Onhold</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Table for admin approval-->
+    <div class="table">
+        <table>
+            <tr>
+                <th>Employee Name</th>
+                <th>Destination</th>
+                <th>Priority</th>
+                <th>View Details</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <th>Donald</th>
+                <th>Las Vegas</th>
+                <th>Critical</th>
+                <th><a href="./TravelDetails.html">View more</a></th>
+                <th><select><option value="Approve">Approve</option>
+                    <option value="Reject">Reject</option>
+                    <option value="Onhold">Onhold</option>
+                    </select></th>
+            </tr>
+            <tr>
+                <th>Aswathy</th>
+                <th>Delhi</th>
+                <th>Normal</th>
+                <th><a href="./TravelDetails.html">View more</a></th>
+                <th><select><option value="Approve">Approve</option>
+                    <option value="Reject">Reject</option>
+                    <option value="Onhold">Onhold</option>
+                    </select></th>
+            </tr>
+            <tr>
+                <th>Franco</th>
+                <th>Kochi</th>
+                <th>Normal</th>
+                <th><a href="./TravelDetails.html">View more</a></th>
+                <th><select><option value="Approve">Approve</option>
+                    <option value="Reject">Reject</option>
+                    <option value="Onhold">Onhold</option>
+                    </select></th>
+            </tr>
+            
+        </table>
+    </div>
+        
+</body>
+</html>
