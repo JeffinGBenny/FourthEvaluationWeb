@@ -108,5 +108,7 @@ table, th{
     justify-content: space-evenly;
 }
   
-
+#logoutButton{
+  margin-left: 90%;
+}
  
